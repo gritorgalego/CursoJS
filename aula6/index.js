@@ -2,7 +2,7 @@
 // Não é possível redeclarar variáveis com 'let'
 // Não usar VAR, sempre use LET!
 
-let nome = 'Vitor';
-nome = 'Galego';
+let nome = 'Galego';
+nome = 'Vitor';
 
 console.log(nome);
