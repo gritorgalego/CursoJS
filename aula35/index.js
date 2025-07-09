@@ -1,5 +1,3 @@
-// For of ->
-
 const nomes = ["Brian", "Stewie", "Peter"];
 
 // for (let i = 0; i < nomes.length; i++){
