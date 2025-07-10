@@ -1,3 +1,7 @@
+// For padrão -> Geralmente usado para iterar sobre arrays ou objetos
+// For in -> Retorna o índice ou chave (string, arrays ou objetos)
+// For of -> Retorna o valor (iteráveis, arrays ou strings)
+
 const nomes = ["Brian", "Stewie", "Peter"];
 
 // for (let i = 0; i < nomes.length; i++){
