@@ -13,7 +13,7 @@
 body {
   margin: 0;
   padding: 0;
-  background: var(--primary-color);
+  background: var(--primaryColor);
   font-family: 'Open sans', sans-serif;
   font-size: 1.3em;
   line-height: 1.5em;
@@ -40,12 +40,12 @@ form input {
 }
 
 form input:focus {
-  outline: 1px solid var(--primary-color);
+  outline: 1px solid var(--primaryColor);
 }
 
 form button {
   border: none;
-  background: var(--primary-color);
+  background: var(--primaryColor);
   color: #fff;
   font-size: 18px;
   font-weight: 700;
@@ -55,5 +55,5 @@ form button {
 }
 
 form button:hover {
-  background: var(--primary-color-darker);
+  background: var(--buttonHoverColor);
 }
