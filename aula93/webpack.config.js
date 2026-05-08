@@ -1,0 +1,26 @@
+const path = require("path"); //CommomJS
+
+module.exports = {
+  mode: "development",
+  entry: "./src/index.js",
+  output: {
+    path: path.resolve(__dirname, "public", "assets", "js"),
+    filename: "bundle.js",
+  },
+  module: {
+    rules: [
+      {
+        exclude: /node_modules/,
+        test: /\.js$/,
+        use: {
+          loader: 'babel-loader',
+          options: {
+            presets: ['@babel/preset-env'],
+            sourceType: "module",
+          },
+        },
+      },
+    ],
+  },
+  devtool: 'source-map'
+};
