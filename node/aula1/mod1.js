@@ -7,16 +7,14 @@
 // exports.sobrenome = sobrenome;
 // exports.falaNome = falaNome;
 // this.qualquerCoisa = 'O que eu quiser exportar';
-
-class Pessoa{
-  constructor(nome, sobrenome){
+class Pessoa {
+  constructor(nome, sobrenome) {
     this.nome = nome;
     this.sobrenome = sobrenome;
   }
 }
-
-const nome = 'Vitor';
-const sobrenome = 'Galego';
+const nome = "Vitor";
+const sobrenome = "Galego";
 
 exports.nome = nome;
 exports.sobrenome = sobrenome;
